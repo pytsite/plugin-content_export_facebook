@@ -1,0 +1,20 @@
+{
+  "description": {
+    "en": "Facebook Content Export",
+    "ru": "Экспорт контента в Facebook",
+    "uk": "Експорт контенту до Facebook"
+  },
+  "url": "https://github.com/pytsite/plugin-content_export_facebook",
+  "author": {
+    "name": "Alexander Shepetko",
+    "email": "a@shepetko.com",
+    "url": "https://shepetko.com"
+  },
+  "requires": {
+    "packages": [],
+    "plugins": [
+      "content_export",
+      "facebook"
+    ]
+  }
+}
