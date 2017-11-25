@@ -1,6 +1,6 @@
 {
-  "name": "plugins.content_export_facebook",
-  "version": "0.1.1",
+  "name": "content_export_facebook",
+  "version": "1.0",
   "description": {
     "en": "Facebook Content Export",
     "ru": "Экспорт контента в Facebook",
@@ -15,8 +15,10 @@
   "requires": {
     "packages": [],
     "plugins": [
+      "content",
       "content_export",
-      "facebook"
+      "facebook",
+      "widget"
     ]
   }
 }

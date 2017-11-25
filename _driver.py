@@ -3,8 +3,8 @@
 import requests as _requests
 import re as _re
 from frozendict import frozendict as _frozendict
-from pytsite import logger as _logger, util as _util, widget as _widget, router as _router
-from plugins import content_export as _content_export, facebook as _facebook, content as _content
+from pytsite import logger as _logger, util as _util, router as _router
+from plugins import content_export as _content_export, facebook as _facebook, content as _content, widget as _widget
 
 __author__ = 'Alexander Shepetko'
 __email__ = 'a@shepetko.com'

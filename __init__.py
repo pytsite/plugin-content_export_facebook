@@ -1,4 +1,4 @@
-"""PytSite Facebook Content Export Driver.
+"""PytSite Facebook Content Export Driver
 """
 
 __author__ = 'Alexander Shepetko'
