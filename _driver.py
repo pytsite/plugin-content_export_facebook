@@ -24,7 +24,7 @@ class Driver(_content_export.AbstractDriver):
         """
         return 'facebook@facebook'
 
-    def get_settings_widget(self, driver_options: _frozendict) -> _widget.Abstract:
+    def get_settings_widget(self, driver_options: _frozendict, form_url: str) -> _widget.Abstract:
         """Get settings widget.
         """
         return _facebook.widget.Auth(
@@ -36,7 +36,7 @@ class Driver(_content_export.AbstractDriver):
             user_id=driver_options.get('user_id'),
             page_id=driver_options.get('page_id'),
             screen_name=driver_options.get('screen_name'),
-            redirect_url=_router.request().inp.get('__form_data_location'),
+            redirect_url=form_url,
         )
 
     def get_options_description(self, driver_options: _frozendict) -> str:
