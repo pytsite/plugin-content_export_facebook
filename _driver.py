@@ -4,10 +4,9 @@ __author__ = 'Alexander Shepetko'
 __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
 
-import requests as _requests
-import re as _re
+import requests as _requests, re as _re
 from frozendict import frozendict as _frozendict
-from pytsite import logger as _logger, util as _util, router as _router
+from pytsite import logger as _logger, util as _util
 from plugins import content_export as _content_export, facebook as _facebook, content as _content, widget as _widget
 
 _tag_cleanup_re = _re.compile('[\-_\s]+')
